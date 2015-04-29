@@ -1,9 +1,9 @@
 
-
-
 Statistics:
+
 Win rates of heros at different skill levels
-good combos of heros
-the value for money of any item given the line up
-counter picker
-probability of winning given lineup
+Good combos of heros
+The value for money of any item given the line up
+Counter picker
+Probability of winning given lineup
+
