@@ -1,0 +1,180 @@
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Not considering match 1428270428.
+DEBUG:dotabot:Not considering match 1428257772.
+DEBUG:dotabot:Processed Match ID: 1428257687 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428257167.
+DEBUG:dotabot:Not considering match 1428256420.
+DEBUG:dotabot:Not considering match 1428254900.
+DEBUG:dotabot:Not considering match 1428253961.
+DEBUG:dotabot:Not considering match 1428252820.
+DEBUG:dotabot:Not considering match 1428249070.
+DEBUG:dotabot:Processed Match ID: 1428248221 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428248154.
+DEBUG:dotabot:Processed Match ID: 1428246721 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428246392.
+DEBUG:dotabot:Not considering match 1428243340.
+DEBUG:dotabot:Processed Match ID: 1428241911 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428239040 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428238719.
+DEBUG:dotabot:Not considering match 1428236652.
+DEBUG:dotabot:Processed Match ID: 1428235085 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428234844 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428234598.
+DEBUG:dotabot:Processed Match ID: 1428232966 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428232805 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428232766 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428232295.
+DEBUG:dotabot:Not considering match 1428231726.
+DEBUG:dotabot:Not considering match 1428231157.
+DEBUG:dotabot:Processed Match ID: 1428229487 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428227650.
+DEBUG:dotabot:Processed Match ID: 1428227521 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428226497 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428226425 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428226281.
+DEBUG:dotabot:Processed Match ID: 1428226239 - Game Mode: All Random
+DEBUG:dotabot:Processed Match ID: 1428225910 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428225691.
+DEBUG:dotabot:Processed Match ID: 1428225566 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428225407.
+DEBUG:dotabot:Not considering match 1428225307.
+DEBUG:dotabot:Processed Match ID: 1428225012 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428224534 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428223965.
+DEBUG:dotabot:Not considering match 1428223820.
+DEBUG:dotabot:Processed Match ID: 1428223697 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428223624.
+DEBUG:dotabot:Processed Match ID: 1428223623 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428223054 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428222633.
+DEBUG:dotabot:Not considering match 1428222529.
+DEBUG:dotabot:Processed Match ID: 1428222521 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428222520.
+DEBUG:dotabot:Processed Match ID: 1428222279 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428222161 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428221591 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428221520 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428221481.
+DEBUG:dotabot:Not considering match 1428220841.
+DEBUG:dotabot:Processed Match ID: 1428220836 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428220462 - Game Mode: Captains Draft
+DEBUG:dotabot:Processed Match ID: 1428220358 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428220069 - Game Mode: Random Draft
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Processed Match ID: 1428272673 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428271351 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428270428.
+DEBUG:dotabot:Not considering match 1428257978.
+DEBUG:dotabot:Not considering match 1428257772.
+DEBUG:dotabot:Processed Match ID: 1428257687 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428257167.
+DEBUG:dotabot:Not considering match 1428256420.
+DEBUG:dotabot:Not considering match 1428254900.
+DEBUG:dotabot:Not considering match 1428253961.
+DEBUG:dotabot:Not considering match 1428252820.
+DEBUG:dotabot:Not considering match 1428249070.
+DEBUG:dotabot:Processed Match ID: 1428248407 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428248221 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428248154.
+DEBUG:dotabot:Processed Match ID: 1428246721 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428246392.
+DEBUG:dotabot:Not considering match 1428243340.
+DEBUG:dotabot:Processed Match ID: 1428241911 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428239443.
+DEBUG:dotabot:Processed Match ID: 1428239040 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428238921.
+DEBUG:dotabot:Not considering match 1428238719.
+DEBUG:dotabot:Not considering match 1428236652.
+DEBUG:dotabot:Processed Match ID: 1428236194 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428235258 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428235085 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428234844 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428234598.
+DEBUG:dotabot:Processed Match ID: 1428234576 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428232966 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428232805 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428232766 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428232295.
+DEBUG:dotabot:Not considering match 1428231908.
+DEBUG:dotabot:Not considering match 1428231726.
+DEBUG:dotabot:Processed Match ID: 1428231462 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428231157.
+DEBUG:dotabot:Processed Match ID: 1428229487 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428227650.
+DEBUG:dotabot:Processed Match ID: 1428227521 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428227176 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428226742 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428226677.
+DEBUG:dotabot:Processed Match ID: 1428226582 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428226497 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428226425 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428226281.
+DEBUG:dotabot:Processed Match ID: 1428226239 - Game Mode: All Random
+DEBUG:dotabot:Processed Match ID: 1428225910 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428225691.
+DEBUG:dotabot:Processed Match ID: 1428225566 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428225407.
+DEBUG:dotabot:Not considering match 1428225307.
+DEBUG:dotabot:Processed Match ID: 1428225012 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428224637 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428224534 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428224521.
+DEBUG:dotabot:Not considering match 1428223965.
+DEBUG:dotabot:Not considering match 1428223820.
+DEBUG:dotabot:Processed Match ID: 1428223697 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428223624.
+DEBUG:dotabot:Processed Match ID: 1428223623 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428223254.
+DEBUG:dotabot:Processed Match ID: 1428223063 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428223054 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428222633.
+DEBUG:dotabot:Not considering match 1428222529.
+DEBUG:dotabot:Processed Match ID: 1428222521 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428222520.
+DEBUG:dotabot:Processed Match ID: 1428222384 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428222279 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428222161 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428221591 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428221520 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428221481.
+DEBUG:dotabot:Processed Match ID: 1428221046 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428220841.
+DEBUG:dotabot:Processed Match ID: 1428220836 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428220462 - Game Mode: Captains Draft
+DEBUG:dotabot:Processed Match ID: 1428220358 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428220084.
+DEBUG:dotabot:Processed Match ID: 1428220069 - Game Mode: Random Draft
+DEBUG:dotabot:Not considering match 1428220026.
+DEBUG:dotabot:Not considering match 1428219858.
+DEBUG:dotabot:Processed Match ID: 1428219549 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428219271 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Not considering match 1428219266.
+DEBUG:dotabot:Processed Match ID: 1428219235 - Game Mode: Unknown mode 16
+DEBUG:dotabot:Not considering match 1428219136.
+DEBUG:dotabot:Processed Match ID: 1428219096 - Game Mode: Single Draft
+DEBUG:dotabot:Processed Match ID: 1428218944 - Game Mode: Unknown mode 22
+DEBUG:dotabot:Processed Match ID: 1428218794 - Game Mode: Single Draft
+DEBUG:dotabot:Not considering match 1428218628.
+DEBUG:dotabot:Doing GMH query for start_at_match_id=None
+DEBUG:dotabot:Not considering match 1428306679.
+DEBUG:dotabot:Processed Match ID: 1428306234 - Game Mode: Captains Mode
+DEBUG:dotabot:Processed Match ID: 1428303273 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428300979.
+DEBUG:dotabot:Processed Match ID: 1428298090 - Game Mode: Captains Mode
+DEBUG:dotabot:Not considering match 1428297523.
+DEBUG:dotabot:Not considering match 1428296854.
+DEBUG:dotabot:Not considering match 1428296131.
+DEBUG:dotabot:Not considering match 1428290864.
+DEBUG:dotabot:Not considering match 1428289943.
+DEBUG:dotabot:Not considering match 1428289292.
+DEBUG:dotabot:Not considering match 1428284375.
+DEBUG:dotabot:Not considering match 1428283369.
+DEBUG:dotabot:Not considering match 1428283115.
+DEBUG:dotabot:Not considering match 1428282376.
+DEBUG:dotabot:Not considering match 1428282301.
