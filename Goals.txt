@@ -6,4 +6,5 @@ Good combos of heros
 The value for money of any item given the line up
 Counter picker
 Probability of winning given lineup
+mine for new meta and emerging trends
 
