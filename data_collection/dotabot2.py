@@ -41,6 +41,7 @@ def process_match_details(match_id):
     '''Get the details of the given match_id, check if it's valid, and
     if it is, add it as a record in the database and spawn a thread to
     download and parse the corresponding replay.'''
+    print(match_id)
     gmd = api.get_match_details(match_id)['result']
 
     if not is_valid_match(gmd):
@@ -84,8 +85,10 @@ def main():
 
             if match_collection.find_one({'match_id':match_id}) != None:
                 logger.debug('Encountered match %s already in database, exiting.' % match_id)
-                #exit(0)
-                continue
+                # exit loop so we don't process already stored games
+                print('Aquiring new matches')
+                break
+
 
             sleep(1.0)
             process_match_details(match_id)
