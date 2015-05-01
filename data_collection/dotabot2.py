@@ -41,6 +41,7 @@ def process_match_details(match_id):
     '''Get the details of the given match_id, check if it's valid, and
     if it is, add it as a record in the database and spawn a thread to
     download and parse the corresponding replay.'''
+    print(match_id)
     gmd = api.get_match_details(match_id)['result']
 
     if not is_valid_match(gmd):
@@ -61,7 +62,7 @@ def main():
     while True:
         # Note: GetMatchHistory returns a list of matches in descending order,
         # going back in time.
-        sleep(1.0)
+        sleep(2.0)
         logger.debug('Doing GMH query for start_at_match_id=%s' % start_match_id)
         gmh = api.get_match_history(start_at_match_id=start_match_id,
                                     skill=3,
@@ -84,9 +85,12 @@ def main():
 
             if match_collection.find_one({'match_id':match_id}) != None:
                 logger.debug('Encountered match %s already in database, exiting.' % match_id)
-                exit(0)
+                # exit loop so we don't process already stored games
+                print('Aquiring new matches')
+                break
 
-            sleep(1.0)
+
+            sleep(2.0)
             process_match_details(match_id)
 
         last_match_id = matches[-1]['match_id']
