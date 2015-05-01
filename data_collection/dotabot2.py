@@ -11,7 +11,7 @@ client = MongoClient('localhost', 27017)
 db = client['dotaDB']
 match_collection = db.matches
 
-logging.basicConfig(filename='C:\Projects\DeepLearning\DOTA-DLexperiment\dotaml\log.txt')
+logging.basicConfig(filename='..\log.txt')
 logger = logging.getLogger('dotabot')
 
 def setup():
@@ -84,7 +84,8 @@ def main():
 
             if match_collection.find_one({'match_id':match_id}) != None:
                 logger.debug('Encountered match %s already in database, exiting.' % match_id)
-                exit(0)
+                #exit(0)
+                continue
 
             sleep(1.0)
             process_match_details(match_id)
