@@ -41,7 +41,7 @@ def process_match_details(match_id):
     '''Get the details of the given match_id, check if it's valid, and
     if it is, add it as a record in the database and spawn a thread to
     download and parse the corresponding replay.'''
-    print(match_id)
+    sleep(1.0)
     gmd = api.get_match_details(match_id)['result']
 
     if not is_valid_match(gmd):
@@ -52,22 +52,29 @@ def process_match_details(match_id):
 
     game_mode = get_game_mode_string(gmd['game_mode'])
     logger.debug('Processed Match ID: %s - Game Mode: %s' % (match_id, game_mode))
-
+    print('Processed: ', match_id)
     # TODO:
     # Spawn replay parser thread if there aren't too many already
+
+def count_items_in_collection():
+    '''Counts the number of matches stored in the database'''
+    return match_collection.count()
 
 def main():
     '''The main entry point of dotabot.'''
     start_match_id = None
+    print('Start items in database: ', count_items_in_collection())
     while True:
         # Note: GetMatchHistory returns a list of matches in descending order,
         # going back in time.
         sleep(1.0)
         logger.debug('Doing GMH query for start_at_match_id=%s' % start_match_id)
-        gmh = api.get_match_history(start_at_match_id=start_match_id,
-                                    skill=3,
-                                    game_mode=2,
-                                    min_players=10)['result']
+        print('Aquiring new matches')
+        #gmh = api.get_match_history(start_at_match_id=start_match_id,
+                                    #skill=3,
+                                    #game_mode=2,
+                                    #min_players=10)['result']
+        gmh = api.get_match_history(skill=3,game_mode=2,min_players=10)['result']
         error_code = gmh['status']
         matches = gmh['matches']
 
@@ -76,24 +83,25 @@ def main():
             logger.debug(msg)
             continue
 
-        if len(matches) is 0:
+        if len(matches) is 1:
             logger.debug('Finished processing all 500 most recent matches.')
-            exit(0)
 
         for match in matches:
             match_id = match['match_id']
-
+            last_match_id = match_id
             if match_collection.find_one({'match_id':match_id}) != None:
-                logger.debug('Encountered match %s already in database, exiting.' % match_id)
+                logger.debug('Encountered match %s already in database.' % match_id)
                 # exit loop so we don't process already stored games
-                print('Aquiring new matches')
+                continue
+
+            while True:
+                try:
+                    process_match_details(match_id)
+                except:
+                    print('Unable to process match: 503 Server Error: Service Unavailable')
+                    continue
                 break
-
-
-            sleep(1.0)
-            process_match_details(match_id)
-
-        last_match_id = matches[-1]['match_id']
+        print('Items in database: ', count_items_in_collection())
         logger.debug('Match_id of last match of GMH query: %s' % last_match_id)
         # We don't want to record the last match twice, so subtract 1
         start_match_id = last_match_id - 1
